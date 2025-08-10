@@ -13,7 +13,6 @@ A Python-based project that fetches court case data, parses PDFs, and displays i
    git clone https://github.com/Nithya059/Court-data-fetcher.git
 ## Installation required packages:
 pip install pandas matplotlib flask
-## project structure
 ## Project Structure
 court-case-data-fetcher/
 ├── data/                 # PDF files
