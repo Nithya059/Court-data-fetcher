@@ -9,14 +9,20 @@ A Python-based project that fetches court case data, parses PDFs, and displays i
 
 ## Installation
 1. Clone this repository:
-   ```bash
    git clone https://github.com/Nithya059/Court-data-fetcher.git
 ## Installation required packages:
 pip install pandas matplotlib flask
 ## Project Structure
 court-case-data-fetcher/
 ├── data/                 # PDF files
-├── main.py               # Main program
+├── app.py               # Main program
 ├── dashboard.py          # Dashboard code
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
+## Usage
+1. Navigate to the project folder:
+   cd Court-data-fetcher
+## install dependencies:
+pip install -r requirements.txt
+## run the script
+streamlit run app.py
